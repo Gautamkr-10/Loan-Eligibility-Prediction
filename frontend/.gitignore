@@ -31,12 +31,10 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Model files (optional – see note)
-backend/model/*.pkl
+./model/*.pkl
 
 # Node
 node_modules/
-
-build/
 
 # OS
 .DS_Store

@@ -19,7 +19,7 @@ except Exception as e:
 # ---------------- FLASK APP ----------------
 app = Flask(
     __name__,
-    static_folder="frontend/build",
+    static_folder="frontend/dist",
     static_url_path=""
 )
 
