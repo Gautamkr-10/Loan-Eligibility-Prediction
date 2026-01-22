@@ -35,7 +35,7 @@ backend/model/*.pkl
 
 # Node
 node_modules/
-dist/
+
 build/
 
 # OS
