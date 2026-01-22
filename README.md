@@ -9,12 +9,12 @@ This project is a full-stack web application that predicts a user's loan eligibi
 ```
 loan-eligibility-app/
 │
-├── backend/           # Flask server handling API requests and ML predictions
 ├── frontend/          # React.js application for user interaction
 ├── model/             # Trained machine learning model (.pkl file)
 ├── train.csv          # Dataset used to train the model
 ├── README.md          # Project documentation
-└── TrainAndSaveModel.ipynb  # Notebook to preprocess, train, and export the model
+├── model/             # Trained machine learning model (.pkl file)
+  └── LoanPrediction.ipynb  # Notebook to preprocess, train, and export the model
 ```
 
 
